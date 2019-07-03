@@ -1,4 +1,4 @@
-ch = input();
+ch = input()
 if ch == '0':
     exit();
 else:
