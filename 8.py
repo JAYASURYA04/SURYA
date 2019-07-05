@@ -1,6 +1,6 @@
-t=int(input(" "))
+c=int(input(" "))
 num = 0
-while(n > 0):
-    num=num+t
-    t=t-1,
+while(c> 0):
+  num=num+c
+  c=c-1
 print(num)
