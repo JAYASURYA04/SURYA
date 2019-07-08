@@ -1,4 +1,4 @@
 u=list(map(int,input().split()))
 u.sort()
-for v in y:
+for v in u:
     print(v,end=' ')
