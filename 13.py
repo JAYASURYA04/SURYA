@@ -1,5 +1,5 @@
 
-j = int(input("enter a number: "))
+j = int(input(" "))
  
 for i in range(2, j):
 	if j% i  == 0:
