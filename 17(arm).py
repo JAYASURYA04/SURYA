@@ -1,11 +1,10 @@
-m=int(input())
-sum=0
-a=m
-while m>0:
-	c=m%10
-	sum=sum+c*c*c
-	m=m//10
-if a==sum:
-	print("yes")
-else:
-	print("no")
+j,k=map(int,input().split())
+for w in range(j+1,k):
+	s=0
+	a=w
+	while(a>0):
+		c=a%10
+		s+=c**3
+		a//=10
+	if(w==s):
+		print(w,end=" ")
